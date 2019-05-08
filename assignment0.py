@@ -5,8 +5,8 @@ Created on Mon Jan 28 12:42:43 2019
 @author: Pooja.Mahajan
 """
 
-import pandas as pd
-import numpy as np
+import pandas as pd ##pandas
+import numpy as np  ##numpy
 import datetime
 df=pd.read_csv("C:/Users/Pooja.mahajan/Desktop/quikr/Assignment0/clickstreamdata.csv")
 
