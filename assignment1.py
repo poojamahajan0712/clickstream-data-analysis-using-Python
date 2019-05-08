@@ -8,9 +8,9 @@ Created on Mon Jan 28 16:49:04 2019
 import pandas as pd
 import numpy as np
 
-mn=pd.read_csv("C:/Users/Pooja.mahajan/Desktop/quikr/Assignment1/realestate_brokers_main.csv",sep=";")
-tx=pd.read_csv("C:/Users/Pooja.mahajan/Desktop/quikr/Assignment1/realestatebrokeraccounttransaction.csv",sep=";")
-action=pd.read_csv("C:/Users/Pooja.mahajan/Desktop/quikr/Assignment1/action_mapping.csv",sep=",")
+mn=pd.read_csv("realestate_brokers_main.csv",sep=";")
+tx=pd.read_csv("realestatebrokeraccounttransaction.csv",sep=";")
+action=pd.read_csv("action_mapping.csv",sep=",")
 
 
 #1. Modification of field transaction_type to be applied to TX:
