@@ -8,7 +8,7 @@ Created on Mon Jan 28 12:42:43 2019
 import pandas as pd ##pandas
 import numpy as np  ##numpy
 import datetime
-df=pd.read_csv("C:/Users/Pooja.mahajan/Desktop/quikr/Assignment0/clickstreamdata.csv")
+df=pd.read_csv("clickstreamdata.csv")
 
 ###converting to date time
 df['datetime1']=pd.to_datetime(df['datetime'])
