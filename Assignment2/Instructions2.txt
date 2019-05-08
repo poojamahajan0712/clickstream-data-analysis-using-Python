@@ -1,0 +1,14 @@
+Supervised learning model
+dvJun13 is the dependent variable to be modelled for. It is binary in nature.
+Expected output is an exported csv with probability score attached to each user_id, codes and performance measures for each model approach (AUC, KS, confusion matrix etc.)
+
+Steps to execute:
+1.Perform imputations for missing data as needed
+2.Break the population into test(random 75%) and val(25%)
+3.Check for correlations amongst variables
+4.Run each of the below models and attach probaility score to a user_id for the val sample.
+a.Logistic regression
+b.Random Forest
+c.XGBoost
+d.SVM
+e.Any other model approach

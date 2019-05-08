@@ -1,0 +1,16 @@
+Assignment0: Data manipulation
+
+Comprises file clickstreamdata.csv which has event data from website.
+UUID (unique user), event_type, subcategory and eventtimestamp
+
+A session is defined as new when the idle time between events for the same user is more than 30 minutes.
+
+Please compute the following metrics against each UUID:
+1. No of sessions
+2. Last subcategory visited by UUID
+3. Max subcategory visited by UUID
+
+Subcategory to be classified into types "Sale", "Rent", "Others", "NULL"
+Now find  
+2. Last subcategorytype visited by UUID
+3. Max subcategorytype visited by UUID
