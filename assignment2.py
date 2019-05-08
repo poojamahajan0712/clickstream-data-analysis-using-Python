@@ -12,7 +12,7 @@ from sklearn.svm import SVC
 import xgboost 
 from sklearn.ensemble import RandomForestClassifier
 
-df=pd.read_csv("C:/Users/Pooja.mahajan/Desktop/quikr/Assignment2/assignment2_data.csv")
+df=pd.read_csv("data.csv")
 
 ####getting count of missing values
 df.isnull().sum(axis=0)
